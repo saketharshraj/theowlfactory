@@ -57,10 +57,13 @@ const Home = ({ productItems, handleAddProduct }) => {
       </p>
       <p style={{marginTop:"30px"}}>
             Phone Number : 7632022043, 7366961779 
+            
         </p>
+        <button style={{height:"45px", width:"100px", marginTop:"25px"}} onClick={()=> {window.location.href="https://api.whatsapp.com/send?phone=917632022043&text=Hello%20theOwlFactory"}}>Whatsapp Me</button>
         <p style={{marginTop:"30px", marginBottom:"50px"}}>
            Copyright © 2022 The Owl Factory. All rights reserved.
         </p>
+        
 
     </div>
     </div>

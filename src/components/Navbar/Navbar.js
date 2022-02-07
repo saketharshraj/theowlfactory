@@ -19,9 +19,7 @@ const Navbar = () => {
             <img style={{borderRadius:"50%", width:"50px", height:"50px"}} src={logo} alt="theOwlfactory Logo" />
             <p style={{fontFamily:"sans-serif", fontSize: "5vh", display:"flex", flexWrap:"wrap"}}>theOwlFactory</p>
         </div>
-        <ul className="menu-list">
-            <li><Link to="/cart"><FaShoppingCart color='rgb(26, 26, 26)' size={25} /></Link></li>
-        </ul>
+        <button onClick={()=> {window.location.href="https://api.whatsapp.com/send?phone=917632022043&text=Hello%20theOwlFactory"}}>Whatsapp Me</button>
     </nav>);
 }
 
