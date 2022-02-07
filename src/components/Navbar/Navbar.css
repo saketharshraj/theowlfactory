@@ -1,0 +1,39 @@
+nav{
+    background-color:rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0;
+    position:sticky;
+}
+.logo{
+    color: rgb(26, 26, 26);
+    padding: 0 3vw ;
+    margin-left: 2px;
+    font-size:1.5em;
+    display: flex;
+}
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(26, 26, 26);
+    margin-right: 2vw;
+    float: right;
+}
+.menu-list li{
+    padding: 0.5vw 2vw;
+}
+.menu-list li a {
+        text-decoration:solid;
+        color: rgb(26, 26, 26);
+        font-size: 1.3em;
+        font-weight: 500;
+}
+.menu-list>li:hover{
+    padding: 0.55vw 2.05vw;
+    background-color:#c8c8c8;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+

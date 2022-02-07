@@ -1,0 +1,56 @@
+.container{
+    background-color: rgb(245, 245, 245);
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.171) ;
+    overflow:auto;
+    text-overflow: ellipsis;
+}
+.signup{
+    padding: 5vw 25vw;
+}
+
+.signup_content{
+    display:flex;
+    flex-flow:column;
+    flex-wrap: wrap;
+    padding: 1vw 10vw;
+    justify-content: center;
+
+}
+.signup_page{
+    padding: 4.5vw 0;
+}
+.signup h2{
+    font-size: 37px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.signup_content label{
+    font-size: 25px;
+    text-align: left;
+} 
+.signup_content input{
+    box-sizing: content-box;
+    height:45px;
+    font-size: 20px;
+}
+.signup_content button{
+    background-color:rgb(26, 26, 26);
+    color:white;
+    padding:1vw 5vw;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:16px;
+    border-radius: 10px;
+    border:none;
+}
+.signup_content>button:hover{
+    transition: ease-in-out 0.1s;
+    background-color:green;
+    color: rgb(26, 26, 26);
+}
+
+
